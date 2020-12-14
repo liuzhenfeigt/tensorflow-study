@@ -1,0 +1,19 @@
+{
+  "name": "tensorflow-study",
+  "version": "1.0.0",
+  "description": "tensorflow 学习",
+  "private": true,
+  "author": "lzf",
+  "keywords": [],
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
