@@ -3,11 +3,11 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: { app: "../src/main.js" },
+  entry: { app: "./src/main.js" },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      template: "../public/index.html",
+      template: "./public/index.html",
     }),
   ],
   output: {
